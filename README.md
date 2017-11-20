@@ -1,13 +1,13 @@
-#Fillit
+# Fillit
 Fillit project for 42.
 
-#Todo
+# Todo
 - main program
 - error checks
 
-#Known bugs
+# Known bugs
 - none (as of 20/11/17)
 
-#Team
+# Team
 - sderet
 - rbarbero
