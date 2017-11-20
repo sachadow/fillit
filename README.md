@@ -6,7 +6,8 @@ Fillit project for 42.
 - error checks
 
 #Known bugs
-- none
+- none (as of 20/11/17)
 
 #Team
 - sderet
+- rbarbero
