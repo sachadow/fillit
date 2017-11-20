@@ -6,7 +6,7 @@
 /*   By: sderet <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/20 15:35:18 by sderet            #+#    #+#             */
-/*   Updated: 2017/11/20 15:45:28 by sderet           ###   ########.fr       */
+/*   Updated: 2017/11/20 19:49:50 by sderet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,11 @@
 
 void	err_argnbr(void)
 {
-	ft_putendl("usage: ./fillit source_tetriminos");
+	ft_putendl("usage: ./fillit source_file");
 }
 
-void	err_standard(void)
+char	err_std(void)
 {
 	ft_putendl("error");
+	return (1);
 }
