@@ -3,7 +3,9 @@ Fillit project for 42.
 
 # How to use
 
-`make && ./fillit [source_file]`
+`make`
+then
+`./fillit [source_file]`
 
 # Known bugs
 - none (as of 24/11/17)
