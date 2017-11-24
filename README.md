@@ -1,12 +1,13 @@
 # Fillit
 Fillit project for 42.
 
-# Todo
-- main program
-- error checks
+# How to use
+
+`make
+./fillit [source_file]`
 
 # Known bugs
-- none (as of 20/11/17)
+- none (as of 24/11/17)
 
 # Team
 - sderet
