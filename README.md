@@ -8,7 +8,7 @@ then
 `./fillit [source_file]`
 
 # Known bugs
-- minor memory leak in invalid_tetri.c
+- none (as of 27/11/17)
 
 # Team
 - sderet

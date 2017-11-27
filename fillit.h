@@ -6,7 +6,7 @@
 /*   By: rbarbero <rbarbero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/20 19:33:59 by rbarbero          #+#    #+#             */
-/*   Updated: 2017/11/24 16:18:40 by sderet           ###   ########.fr       */
+/*   Updated: 2017/11/25 10:41:32 by rbarbero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,10 @@ typedef struct	s_coord
 unsigned char	print_usage(void);
 unsigned char	print_error(void);
 
-void			print_result(t_grid *result);
 char			*ft_read(char *filename);
-int				valid_line_check(char **tab, int a, int c);
-int				last_check(char**tab, int a, int b, int c);
-char			check_error(char *tetriminos);
+unsigned char	check_error(char *tetriminos);
 t_tetri			**parse(const char *input, unsigned char *nb_tetri);
 t_grid			*resolve(t_tetri **tetris, unsigned char nb_tetri);
+void			print_result(t_grid *result);
 
 #endif
